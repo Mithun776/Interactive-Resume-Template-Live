@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Linking the External CSS file -->
+    <link rel="stylesheet" href="style1.css" />
+    <title>Subscribe Page</title>
+  </head>
+  <body>
+    <!-- For the Container -->
+    <div class="box">
+      <span class="borderLine"></span>
+      <form action="">
+        <h2>Subscribe for Email Updates</h2>
+
+        <!-- Input User name -->
+        <div class="inputBox">
+          <input type="text" id="username" required />
+          <span>Username</span>
+          <i></i>
+
+          <!-- Input Email -->
+        </div>
+        <div class="inputBox">
+          <input type="email" id="email" required />
+          <span>Email</span>
+          <i></i>
+        </div>
+        <br />
+
+        <!-- Submit Button -->
+        <input type="submit" onclick="test()" value="SUBSCRIBE" />
+        <br />
+        <br />
+
+        <!-- Link for Return back to home page -->
+        <div class="btn-group">
+          <a
+            href="index.html"
+            class="btn btn-primary text-uppercase"
+            style="color: rgb(145, 145, 212)"
+            >Back to Home Page</a
+          >
+        </div>
+      </form>
+    </div>
+    <!-- Linking JavaScript file -->
+    <script src="script1.js"></script>
+  </body>
+</html>
